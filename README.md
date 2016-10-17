@@ -5,3 +5,4 @@ Features:
 - Entity Framwork 6.1
 - Windows Form
 - MVC Project
+- SQL Server Database

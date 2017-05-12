@@ -15,30 +15,6 @@ namespace Vendas.Server.Control.Data
 
         public static DbConnection Conection()
         {
-            //try
-            //{
-            //    var dsConexao = new DataSet();
-
-            //    dsConexao.ReadXml(AppDomain.CurrentDomain.BaseDirectory + @"\Conn.xml");
-
-            //    DbProviderFactory provedor = DbProviderFactories.GetFactory("System.Data.SqlClient");
-
-            //    DbConnection conection = provedor.CreateConnection();
-
-            //    //conection.ConnectionString = "Data Source=" + dsConexao.Tables[0].Rows[0]["Servidor"].ToString() + ";" +
-            //    //                              "Initial Catalog=" + dsConexao.Tables[0].Rows[0]["Banco"].ToString() + ";" +
-            //    //                              "Persist Security Info=" + dsConexao.Tables[0].Rows[0]["PersistSecurityInfo"].ToString() + ";" +
-            //    //                             "User ID=" + dsConexao.Tables[0].Rows[0]["Usuario"].ToString() + ";" +
-            //    //                              "Password=" + dsConexao.Tables[0].Rows[0]["Senha"].ToString() + "";
-
-            //    //conection.ConnectionString = "Data Source=np:\\.\pipe\LOCALDB#4BE6246A\tsql\query;Integrated Security=True";
-            //    conection.ConnectionString = "Data Source=(localdb)\v11.0;Initial Catalog=Vendas;Integrated Security=True";
-
-            //    return conection;
-            //}
-            //catch
-            //{ return null; }
-
             var dsConexao = new DataSet();
 
             dsConexao.ReadXml(AppDomain.CurrentDomain.BaseDirectory + @"\Conn.xml");
